@@ -1,0 +1,96 @@
+@font-face {
+    font-family: yekan;
+    src: url("../public/assets/fonts/IRANYekanWebRegular.ttf");
+}
+*{
+    font-family: yekan;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+body{
+    background-image: url("../public/assets/img/Moon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 97.3vh;
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    margin: 0px 0px 30px 0px;
+    color: #ffffff;
+    font-size: 30px;
+}
+::placeholder{
+    color: #e0e0e0;
+}
+.main-sec{
+    margin: 170px auto;
+    padding: 50px 18px;
+    width: 40%;
+    height: auto;
+    background-color: #ffffff5d;
+    backdrop-filter: blur(8px);
+    border: 3px solid #fff;
+    border-radius: 18px;
+    text-align: center;
+}
+/* Input Component */
+.inp-box{
+    margin: 18px auto;
+    width: 90%;
+    border: 1px solid #363768;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp-box .inp-container{
+    width: 85%;
+    padding: 12px 10px;
+}
+.inp-box .btn-container{
+    width: 15%;
+    padding: 12px 5px;
+    background-color: #49108B;
+    text-align: center;
+}
+.inp-box .btn-1{
+    background-color: #675698 !important;
+}
+.inp-box .btn-2{
+    background-color: #a6747b !important;
+}
+.inp-box .add-inp{
+    width: 100%;
+    font-size: 20px;
+    color: #ffff;
+}
+.inp-box .add-btn-1{
+    width: 100%;
+    padding: 3px;
+    font-size: 20px;
+    background-color: #675698;
+    color: #F3F8FF;
+    cursor: pointer;
+    text-align: center;
+}
+.inp-box .add-btn-2{
+    width: 100%;
+    padding: 3px;
+    font-size: 20px;
+    background-color: #a6747b;
+    color: #F3F8FF;
+    cursor: pointer;
+    text-align: center;
+}
+.num-div{
+    margin: 50px 0px;
+}
+.num-div .num{
+    font-size: 80px !important;
+    font-family: cursive;
+}
